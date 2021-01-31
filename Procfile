@@ -1,0 +1,1 @@
+web: bundle exec puma -t 2:2 -p $PORT -e $RACK_ENV

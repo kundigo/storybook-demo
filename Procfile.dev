@@ -1,0 +1,4 @@
+web: bundle exec puma -t 4:4 -p $PORT
+services: docker-compose up
+webpack: ./bin/webpack-dev-server
+#cable: bundle exec puma -p 28080 ./config/action_cable/config.ru
